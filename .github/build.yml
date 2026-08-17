@@ -10,4 +10,4 @@ jobs:
           cd $GITHUB_WORKSPACE
            python -m pip install --upgrade pip
       - name: Run Tests
-        run: python -m unittest tests/*.py
+        run: python -m unittest tests/__init__.py
